@@ -12,13 +12,13 @@ function App() {
       </header>
 
       <main>
-          <section>
+          <section className="box-titulo">
             <h1>React JS</h1>
             <p>Biblioteca JavaScript para criar SPAs</p>
             <a href="https://reactjs.org/" target="_blank">Site Oficial</a>
           </section>
 
-          <section>
+          <section className="box-requisitos">
             <h2>Requisitos</h2>
             <p>Veja abaixo os requisitos mínimos para aprender React JS:</p>
             <div>
