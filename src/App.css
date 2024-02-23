@@ -19,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #20232a;
   min-height: 10vh;
   display: flex;
   align-items: center;
@@ -42,5 +42,34 @@
 }
 
 .box-titulo {
-  background-color: #20322a;
+  background-color: #282c34;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-titulo h1 {
+  font-size: 32px;
+  color: #61dafb;
+  margin: 0;
+}
+
+.box-titulo p {
+  font-size: 24px;
+  color: #fff;
+}
+
+.box-titulo a {
+  text-decoration: none;
+  color: #282c34;
+  background-color: #61dafb;
+  padding: 10px;
+  width: 90px;
+  font-size: 16px;
+  border-radius: 4rem;
+  font-weight: 400;
+
 }
