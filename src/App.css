@@ -73,3 +73,32 @@
   font-weight: 400;
 
 }
+
+.box-requisitos {
+  
+}
+
+.container1 {
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.container1 h2 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.container1 p {
+  font-size: 19px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}

@@ -19,9 +19,12 @@ function App() {
           </section>
 
           <section className="box-requisitos">
-            <h2>Requisitos</h2>
-            <p>Veja abaixo os requisitos mínimos para aprender React JS:</p>
-            <div>
+            <div className='container1'>
+              <h2>Requisitos</h2>
+              <p>Veja abaixo os requisitos mínimos para aprender React JS:</p>
+            </div>
+
+            <div className='container2'>
               <div>
                 <h3>HTML</h3>
                 <p>Aprender a estruturar os elementos da página com HTML</p>
