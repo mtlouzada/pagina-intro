@@ -75,30 +75,45 @@
 }
 
 .box-requisitos {
-  
-}
-
-.container1 {
   height: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
-.container1 h2 {
+.box-requisitos h2 {
   font-weight: bold;
   font-size: 26px;
 }
 
-.container1 p {
+.box-requisitos p {
   font-size: 19px;
 }
 
-.container2 {
+.box-conteudo {
+  height: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  gap: 20px;
+  padding: 10px;
+}
+
+.conteudo h3 {
+  color: #ffd000da;
+}
+
+.conteudo {
+  color: #fff;
+  background-color: #20232a;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 20rem;
+  height: 10rem;
+  box-shadow: 5px 5px 8px 2px #000000;  
+}
+
+footer {
+  padding: 20px;
 }
